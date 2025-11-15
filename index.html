@@ -285,6 +285,10 @@
 }
 
 
+    body.is-scrolled header {
+      transform: translateY(0);
+    }
+
     /* header di light mode */
     body.light-theme header {
       background: linear-gradient(
@@ -1000,6 +1004,7 @@
     }
 
     .hero-orbit-circle {
+      display: none;
       position: absolute;
       width: 210px;
       height: 210px;
@@ -2234,6 +2239,10 @@
               </div>
             </div>
           </div>
+
+          <div class="hero-orbit">
+            <div class="hero-orbit-circle"></div>
+            <div class="hero-orbit-pill">
               Fokus: Karir, Pendidikan, &amp; Pengembangan Skill
             </div>
           </div>
